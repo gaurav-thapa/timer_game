@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Player from './components/Player/Player';
+import AllChallenges from './components/challenge/AllChallenges';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header>
+          <h1>THE <span>ALMOST</span> FINAL COUNTDOWN</h1>
+          <p>Stop the timer once you estimate that time is (almost) up</p>
+        </header>
+        <Player />
+        <AllChallenges />
+      </div>
     </div>
   );
 }

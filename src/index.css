@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.result_modal {
+  border-radius: 6px;
+  border: none;
+}
+
+.result_modal form{
+  text-align: right;
+}
+.result_modal h1,
+strong {
+  color: #005B41;
+}
+
+.result_modal button {
+  background-color: #232D3F;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.result_modal button:hover {
+  background-color: #0F0F0F;
+  cursor: pointer;
+}
+
+::backdrop {
+  background-color: #0F0F0F;
+  opacity: .9;
+}

@@ -1,38 +1,96 @@
 .App {
+  background-color: #232D3F;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  background-color: #0F0F0F;
+  color: white;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header span {
+  color: #005B41;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.player h2 {
+  color: #005B41;
+}
+
+.player input {
+  background-color: #232D3F;
+  color: #008170;
+}
+
+.player input:focus {
+  outline: none;
+}
+
+.player button {
+  background-color: #005B41;
+}
+
+.player button:hover {
+  background-color: #005B41;
+  cursor: pointer;
+}
+
+.challenges_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+.challenge_container div{
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.challenge {
+  background-image: linear-gradient(to top, #008170 0%, #005B41 100%);
+  width: 330px;
+  padding: .5rem;
+  color:black;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-basis: auto;
+}
+.challenge h2{
+  margin:0;
+}
+.challenge h3{
+  border:1px solid black;
+  width: fit-content;
+  padding:5px;
+}
+.challenge p{
+  margin:10px;
+}
+.challenge button {
+  background-color: #232D3F;
   color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.challenge button:hover {
+  background-color: #0F0F0F;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+@media (min-width:1030px) {
+  .container{
+    width:60%;
   }
 }
