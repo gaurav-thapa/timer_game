@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/timer_game/static/css/main.8e3077f7.css",
+    "main.js": "/timer_game/static/js/main.c009ab8b.js",
+    "static/js/787.7498275b.chunk.js": "/timer_game/static/js/787.7498275b.chunk.js",
+    "index.html": "/timer_game/index.html",
+    "main.8e3077f7.css.map": "/timer_game/static/css/main.8e3077f7.css.map",
+    "main.c009ab8b.js.map": "/timer_game/static/js/main.c009ab8b.js.map",
+    "787.7498275b.chunk.js.map": "/timer_game/static/js/787.7498275b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e3077f7.css",
+    "static/js/main.c009ab8b.js"
+  ]
+}
